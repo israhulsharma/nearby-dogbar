@@ -1,0 +1,131 @@
+#title {
+    background-color: #ff4c68;
+    padding: 5% 15%;
+}
+
+
+h1{font-family: 'Montserrat-bold', sans-serif ;
+    color: azure;
+    padding: 15% 8% 1% 0;
+    font-size: 3rem;
+    
+}
+
+h2{
+    padding-top: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #2a282b;
+}
+    
+.navbar-brand{
+    margin-left: 10%;
+    font-family: ubuntu;
+    font-weight: 500;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+.download-btn{
+    margin: 5% 3% 2% 0%;
+}
+
+.img-title {
+    width: 25%;
+    transform: rotate(5deg);
+    position: absolute;
+}
+
+#features{
+    padding: 3% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.feature-box{
+    text-align: center;
+    padding:4%;
+}
+
+h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bold;
+}
+
+p{color: #626063;
+size: 2rem;
+}
+
+.fet-img{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+
+.fet-img:hover{
+    color: rgb(128, 0, 17);
+}
+
+#testimonials{
+    font-family: 'Montserrat-Bold', sans-serif;
+    background-color: #ff4c67cc;
+    text-align: center;
+    
+}
+
+.test-img{
+    width: 100px;
+    border-radius: 100%;
+    margin: 3% 1% 0 1%;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+
+#press{
+    background-color: #ff4c67cc;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-img{
+    width: 15%;
+}
+
+.priority-text {
+    text-decoration: line-through;
+  }
+
+#pricing{
+    text-align: center;
+    padding: 5% 10%;
+}
+
+@media (max-width:998px) {
+    #title{
+        text-align: center;
+    }
+    .img-title {
+        width: 70%;
+        transform: rotate(0deg);
+        position: static;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+#footer{
+    text-align: center;
+    padding: 5% 0;
+}
+.f-icon{
+    padding: 0 1% 1% 1%;
+
+}
